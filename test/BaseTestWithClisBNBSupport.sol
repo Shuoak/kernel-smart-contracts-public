@@ -17,7 +17,7 @@ abstract contract BaseTestWithClisBNBSupport is BaseTest {
         super.setUp();
 
         //
-        _setAddress("CLIS_BNB", 0x4b30fcAA7945fE9fDEFD2895aae539ba102Ed6F6);
+        _setAddress("CLIS_BNB", 0xbfa51fd3ac7f62aaf1afe8702cb385ddbfd04cee);
         _setAddress("HELIO_PROVIDER", 0xa835F890Fcde7679e7F7711aBfd515d2A267Ed0B);
 
         // deploy clisBNB Vault
